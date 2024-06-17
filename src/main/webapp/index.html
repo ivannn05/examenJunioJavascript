@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="iloposa">
+	<title>Insertar el titulo aqui</title>
+	<link href="Estilo.css" rel="stylesheet">
+</head>
+
+<body>
+	<button onclick="introducirLaPalabra()">Introducir palabra</button>
+	<br>
+
+	<p>Intentos:<p id="intentos"></p></p>
+	
+	<br><br>
+	<button onclick="tiempo()">Tiempo</button>
+	<p>Palabra:<p id="palabra"></p></p>
+	
+
+	<br><br>
+	<button onclick="pedirLaLetra()">Letra</button>
+
+
+<br>
+
+<h3>          Historial</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Palabra</th>
+				<th>Intentos</td>
+				<th>Tiempo</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="tabla">
+
+			</tr>
+
+		</tbody>
+	</table>
+	<br><br>
+	<p>Letras usadas:</p>
+	<p id="letrasUsadas"></p>
+
+
+	<script src="js.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+th,
+tr,
+tbody,
+table,
+thead,
+td {
+	border-radius: 1%;
+	border: solid black;
+}
